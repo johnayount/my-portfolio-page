@@ -1,0 +1,149 @@
+
+
+html {
+    font-size: 20px;
+    font-family:'Open Sans','sans-serif'; ;
+    
+}
+
+body {
+    color: black;
+}
+
+header {
+    display: flex;
+    align-items: flex-start;
+    width: 80%;
+}
+
+
+nav {
+    
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    margin-left: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+h1 {
+    margin-right: auto;
+    margin-top: auto;
+    width: 50%;
+    text-align: left;
+    font-size: 60px;
+    
+}
+
+h2 {
+    width: 50%;
+    text-align: left;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: bold;
+}
+ul {
+    list-style-type:circle;
+}
+
+/* makes the page content more narrow */
+#center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#about-me-container {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 80%;
+    
+}
+
+#my-story {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align:left;
+    font-size: 16px;
+}
+
+#my-story h2 {
+    width: 100%;
+}
+
+#family-photo {
+    display: flex;
+    width: 50%;
+    margin-left: auto;
+    justify-content: right;
+    align-items:center;
+}
+
+#family-photo img {
+    width: auto;
+    height: 350px;
+    border-radius: 10px;
+    
+}
+
+#projects {
+    width: 80%;
+
+}
+
+#skills img {
+    width: 60px;
+    
+}
+
+ 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    font-weight: bold;
+    color: black;
+}
+
+footer {
+    
+    text-align: center;
+}
+
+#contact-info {
+    margin-top: auto;
+    text-align: left;
+    width: 80%;
+
+}
+
+#current-date {
+    text-align: left;
+    width: 80%;
+}
+
+
+.dark-mode {
+    background-color: black;
+  color: white;
+}
+
+.dark-mode a{
+    background-color: black;
+  color: white;
+}
+
+
+
+
+

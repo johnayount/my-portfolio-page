@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact John Yount</title>
+</head>
+
+<body>
+    <div id="center-container">
+    <header>
+        <h1>John Yount</h1>
+        <nav>
+            
+            <p><a href="./index.html">about me</a>  </p>
+            <p> <a href="./index.html">projects</a></p>
+            <p> <a href="./index.html">skills</a></p>
+            <p><a href="./contact-me.html">contact</a></p>
+            <button onclick="myFunction()">Toggle dark mode</button>
+            
+        </nav>    
+    </header>
+    
+<div id="contact-info">
+    <h2>Contact</h2>
+    <p>Have an interesting project to work on?<br> 
+        I'd love to hear about it!<br> 
+        <em>johnyount953@gmail.com</em> </p>
+ </div>
+ <div id="current-date">
+ <script src='current-date.js'></script>
+</div>
+</div>
+
+
+</body>
+<script>
+    function myFunction() {
+       var element = document.body;
+       element.classList.toggle("dark-mode");
+    }
+    </script>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John's Portfolio</title>
+</head>
+<body>
+  <div id="center-container">
+    <header>
+        <h1>John Yount</h1>
+        <nav>
+            
+                <p><a href="#about-me-container">about me</a>  </p>
+                <p> <a href="#projects">projects</a></p>
+                <p> <a href="#skills">skills</a></p>
+                <p><a href="./contact-me.html">contact</a></p>
+                <button onclick="myFunction()">Toggle dark mode</button>
+            
+        </nav>    
+    </header>
+        
+   
+       
+
+        <!-- main content of page -->
+    <div id="about-me-container">
+        <div id="my-story">
+            <h2>About Me</h2>
+            <p> Hi there! I'm John and I love to code. I have not been coding for a long time and I did not start in this industry. 
+            Working in the field of computer programming is very exciting and I cannot wait to begin.
+            <br>
+            <br>
+            I currently work full time in the Automotive industry and have since I graduated college in 2014. The world of cars is 
+            also fun and very complex, I hope to one day return to this industry but on the programming side.
+            <br>
+            <br>
+            My wife and I have one daughter and another on the way, we love to go to the park together and go hiking.
+            Oh, and we have one very overweight cat named Minnie, how could I forget!
+
+            </p>
+        </div>
+        <div id="family-photo">
+            <img src="./resources/photos/john and juni.jpeg" alt="John and his family">
+        </div>
+    </div>
+    
+    <!-- PROJECTS -->
+    <div id="projects">
+        <h3>Projects</h3>
+        <ul>
+            <li><a href="https://github.com/johnayount/Tennessee-warblers" target="_blank">Tennessee Warblers</a></li>
+            <li><a href="https://github.com/johnayount/johnson-automotive" target="_blank">Johnson's Automotive</a> </li>
+        </ul>
+   
+
+    <!-- SKILLS -->
+    <h3>skills</h3>
+    <div id="skills">
+        <img src="./resources/photos/coding logos.png" alt="html and css and javascript">
+    
+    </div>
+    
+ </div>
+    <footer>homemade in Nashville, Tennessee</footer>
+    <script src="current-time.js" ></script>
+</div>
+   
+
+
+
+
+    
+</body>
+<script>
+    function myFunction() {
+       var element = document.body;
+       element.classList.toggle("dark-mode");
+    }
+    </script>
+</html>
